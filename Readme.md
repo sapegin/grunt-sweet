@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/sapegin/grunt-sweet.png)](http://travis-ci.org/sapegin/grunt-sweet)
 # Sweet task for Grunt
 
 ## Installation
