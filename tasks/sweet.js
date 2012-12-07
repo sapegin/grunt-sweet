@@ -20,21 +20,19 @@ module.exports = function(grunt) {
 		if (grunt.option('debug'))
 			options.debug = true;
 
-		grunt.helper('sweet', options, function() {
-			done();
-		});
+		compile(options, done);
 	});
 
-	grunt.registerHelper('sweet', function(options, done) {
+	function compile(options, done) {
 		sweet.compile(options, function(err) {
 			if (err) {
-				// @todo In Grunt 0.4 don't fail when watching
-				grunt.fatal('Sweet: ' + err);
+				grunt.log.error(err);
+				grunt.fail.warn('Sweet failed to compile.');
 			}
 			else {
 				grunt.log.writeln('Compiled.');
 			}
 			done();
 		});
-	});
+	}
 };
