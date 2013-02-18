@@ -2,13 +2,15 @@
 
 ## Installation
 
+This plugin requires Grunt 0.4.
+
 Install `grunt-sweet`:
 
 ```
-npm install grunt-sweet
+npm install grunt-sweet --save-dev
 ```
 
-Add somewhere in your `grunt.js`:
+Add somewhere in your `Gruntfile.js`:
 
 ```javascript
 grunt.loadNpmTasks('grunt-sweet');
@@ -19,7 +21,7 @@ Inside your `grunt.js` file add a section named `sweet`. See [Sweet documentatio
 
 ## Using `server` and `watch` tasks
 
-Just add to your `grunt.js` something like this:
+Just add to your `Gruntfile.js` something like this:
 
 ```json
 watch: {
