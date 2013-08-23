@@ -1,7 +1,7 @@
 {
   "name": "grunt-sweet",
   "description": "Sweet task for Grunt.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/sapegin/grunt-sweet",
   "author": {
     "name": "Artem Sapegin",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.2.1",
     "grunt-contrib-clean": "~0.5.0"
   },
   "peerDependencies": {
