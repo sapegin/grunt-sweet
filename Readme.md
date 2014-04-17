@@ -41,13 +41,9 @@ server: {
 
 `--debug` command line switch enables debug mode in Sweet.
 
+## Changelog
 
-## Release History
-
-### 2013-08-23 v0.2.1
-
-* Update dependencies.
-
+The changelog can be found in the [Changelog.md](Changelog.md) file.
 
 ---
 
