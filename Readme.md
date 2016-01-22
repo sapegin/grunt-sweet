@@ -1,5 +1,7 @@
 # Sweet task for Grunt
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 ## Installation
 
 This plugin requires Grunt 0.4.
